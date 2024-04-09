@@ -1,0 +1,75 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.HeaderContainer {
+  width: 100vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+h1 {
+  color: rgb(38, 140, 203); 
+}
+.DateBox {
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  color: black;
+}
+
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 330px;
+  background-color: rgb(2, 47, 78);
+  border: 2px solid rgb(10, 149, 236); 
+  border-radius: 5%;
+}
+
+input {
+  width: 200px;
+  background-color:  rgb(7, 28, 43);
+  margin-bottom: 10px;
+  height: 35px;
+  font-size: medium;
+  color: rgb(117, 210, 246);
+  border: 1px solid rgb(10, 149, 236);
+  border-radius: 5%;
+}
+
+.ButtonsContainer {
+  padding: 5px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ButtonsContainer button {
+  width: 85px;
+  height: 30px;
+  background: rgb(7, 28, 43);
+  border: none;
+  color: rgb(117, 210, 246);
+}
+.ButtonsContainer button:hover {
+  border: 1px solid  rgb(117, 210, 246);
+  background: rgb(12, 51, 79);
+}
+
+.ErrorText {
+  width: 200px;
+  font-size: normal;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #ac0808;
+}
